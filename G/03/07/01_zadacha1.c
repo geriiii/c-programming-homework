@@ -15,5 +15,4 @@ scanf("%d", &number);
 sum += number;}
 average = sum / count;
 printf("Sum: %d\nAverage: %.2f\n", sum, average);
-return 0;
-}
+return 0;}
