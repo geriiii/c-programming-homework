@@ -4,7 +4,6 @@ int n;
 int count;
 int sum = 0;
 float average;
-printf("Enter how many numbers you are going to use:\n");
 scanf("%d", &n);
 if(n < 1){
 printf("Error! The number must be bigger that 0!\n");
