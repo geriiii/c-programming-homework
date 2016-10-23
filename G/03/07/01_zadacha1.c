@@ -6,7 +6,6 @@ int sum = 0;
 float average;
 scanf("%d", &n);
 if(n < 1){
-printf("Error! The number must be bigger that 0!\n");
 return 0;}
 for(count = 0; count < n; count++){
 int number; 
