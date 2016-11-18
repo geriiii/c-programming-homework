@@ -32,6 +32,5 @@ int main() {
             printf("%d\n", nums[i] - nums[size - i - 1]);
         }
     }
- 
-    return 0;
+ return 0;
 }
