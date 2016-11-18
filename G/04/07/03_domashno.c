@@ -4,7 +4,7 @@ int main() {
     char string[1000];
     fgets(string, 1000, stdin);
  
-    int ascii_letters[26] = {};
+    int ascii_letters[26] = {0};
     int i;
     for(i = 0; string[i] != '\n'; i++) {
         int ascii_letter = string[i];
